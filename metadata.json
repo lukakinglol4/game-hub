@@ -1,0 +1,6 @@
+{
+  "name": "GameHub",
+  "description": "An offline-first browser gamehub and file vault that supports custom HTML games, installation files, and secure hidden access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
