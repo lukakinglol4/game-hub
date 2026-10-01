@@ -1,4 +1,4 @@
-import { Game } from '../lib/db';
+import { Game } from './src/lib/db';
 
 export const BUILTIN_GAMES: Game[] = [
   {
@@ -24,7 +24,7 @@ export const BUILTIN_GAMES: Game[] = [
   {
     id: 'builtin_tetris',
     title: 'Cyber Block Puzzle',
-    description: 'Arrange falling tetromino matrixes into solid rows to clear them and maintain grid equilibrium.',
+    description: 'Arrange falling tetromino matrices into solid rows to clear them and maintain grid equilibrium.',
     category: 'puzzle',
     type: 'builtin',
     uploadedAt: 1789830200000,
@@ -40,5 +40,35 @@ export const BUILTIN_GAMES: Game[] = [
     uploadedAt: 1789830300000,
     isFavorite: false,
     plays: 15,
-  }
+  },
+  {
+    id: 'builtin_2048',
+    title: 'Neon 2048',
+    description: 'Merge matching tiles to chase the 2048 milestone before the grid fills up.',
+    category: 'puzzle',
+    type: 'builtin',
+    uploadedAt: 1789830400000,
+    isFavorite: false,
+    plays: 10,
+  },
+  {
+    id: 'builtin_pong',
+    title: 'Pulse Pong',
+    description: 'Bounce the ball past your rival in a compact neon arena with quick reflex-based play.',
+    category: 'classic',
+    type: 'builtin',
+    uploadedAt: 1789830500000,
+    isFavorite: false,
+    plays: 9,
+  },
+  {
+    id: 'builtin_maze',
+    title: 'Glass Maze',
+    description: 'Route your runner through a shifting labyrinth to the glowing objective marker.',
+    category: 'action',
+    type: 'builtin',
+    uploadedAt: 1789830600000,
+    isFavorite: true,
+    plays: 11,
+  },
 ];
